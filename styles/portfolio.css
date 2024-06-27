@@ -5,12 +5,24 @@ body{
 .text-primary{
     color: #fd6E0a;
 }
+
+/* common shared class */
+
+
+
 header{
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: ('../images/developer.png');
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+}
+.banner-content{
+    max-width: 500px;
 }
 nav {
     display: flex;
@@ -51,8 +63,39 @@ nav a{
 .banner{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-greeting{
+    font-size: 45px;
+}
+
+.banner-title{
+    font-size: 45px;
+    color: #474747;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
 }
 
 .banner .profile-pic{
     width: 500px;
+}
+
+.about{
+    padding: 130px;
+    color: #181818;
+    background: #fff8f3;
+    margin: 50px 0px;
+}
+
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description{
+    margin: 30px 80px 30px 50px;
 }
