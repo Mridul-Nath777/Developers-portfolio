@@ -99,3 +99,20 @@ nav a{
 .section-description{
     margin: 30px 80px 30px 50px;
 }
+
+
+/* main section start here */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
